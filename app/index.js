@@ -3,10 +3,9 @@
 // import './index.css';
 
 var React = require('react');
-var ReactDom = require('react-dom');
+var ReactDOM = require('react-dom');
 require('./index.css');
 
-//component will have state, and will also have lifestyle events, and will have UI
 class App extends React.Component {
   render() {
     return (
