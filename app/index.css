@@ -1,6 +1,6 @@
 body {
   margin: 40px;
-  background: #340068;
+  background: #9370DB;
   color: #FFFCF9;
   border: 1px dotted #B1EDE8;
   font-size: 16px;
@@ -29,4 +29,24 @@ li {
   margin: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.space-list-items{
+  margin-bottom: 7px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
 }
