@@ -1,7 +1,7 @@
 var axios = require('axios');
 
 
-function getProfile(username){
+function getProfile(username, params){
   return axios.get('https://api.github.com/users' + username + params)
     .then(function(user){
     return user.data;
